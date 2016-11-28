@@ -7,7 +7,7 @@ web applications.
 It consists of four Self-Contained Systems (SCS): general portal,
 letter, notify claims and postbox.
 
-To start run ´docker-compose up -d´
+To start run `docker-compose up -d`
 
 The Docker containers should run on `localhost`. Otherwise set the
 environment variable `ROCA_SERVER` to the host the containers run on.
@@ -25,6 +25,6 @@ elements.
 This project is based on a very similar project by @mjansing and
 @moonglum .
 
-Find more information about SCS see http://scs-architecture.org . ROXA
-is 
+Find more information about SCS see http://scs-architecture.org . ROCA
+is at http://roca-style.org/ .
 
