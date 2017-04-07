@@ -7,7 +7,11 @@ web applications.
 It consists of four Self-Contained Systems (SCS): general portal,
 letter, notify claims and postbox.
 
-To start run `docker-compose up -d`
+To build the base image use `docker build --tag npm-base-image
+npm-base-image`. 
+
+To start run `docker-compose up -d`. This will also build the rest of
+the Docker images.
 
 The Docker containers should run on `localhost`. Otherwise set the
 environment variable `ROCA_SERVER` to the host the containers run on.
