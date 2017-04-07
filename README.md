@@ -7,11 +7,17 @@ web applications.
 It consists of four Self-Contained Systems (SCS): general portal,
 letter, notify claims and postbox.
 
-To build the base image use `docker build --tag npm-base-image
+* To build the base image use `docker build --tag npm-base-image
 npm-base-image`. 
 
-To start run `docker-compose up -d`. This will also build the rest of
+* To start run `docker-compose up -d`. This will also build the rest of
 the Docker images.
+
+* Note that there is currently a problem so the application only
+really works if you switch JavaScript off.
+
+https://lvm-las-roca.herokuapp.com/ is a running instance of the
+application that is deployed on Heroku.
 
 The Docker containers should run on `localhost`. Otherwise set the
 environment variable `ROCA_SERVER` to the host the containers run on.
