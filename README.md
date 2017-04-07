@@ -13,9 +13,6 @@ npm-base-image`.
 * To start run `docker-compose up -d`. This will also build the rest of
 the Docker images.
 
-* Note that there is currently a problem so the application only
-really works if you switch JavaScript off.
-
 https://lvm-las-roca.herokuapp.com/ is a running instance of the
 application that is deployed on Heroku.
 
@@ -46,5 +43,3 @@ The source code for the services can be found at:
 * https://github.com/LVM-IT/roca-las
 
 The asset project is https://github.com/LVM-IT/roca-las-assets .
-
-
