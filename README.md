@@ -28,3 +28,13 @@ This project is based on a very similar project by @mjansing and
 Find more information about SCS see http://scs-architecture.org . ROCA
 is at http://roca-style.org/ .
 
+The source code for the services can be found at:
+
+* https://github.com/LVM-IT/roca-las-damage
+* https://github.com/LVM-IT/roca-las-letter
+* https://github.com/LVM-IT/roca-las-postbox
+* https://github.com/LVM-IT/roca-las
+
+The asset project is https://github.com/LVM-IT/roca-las-assets .
+
+
