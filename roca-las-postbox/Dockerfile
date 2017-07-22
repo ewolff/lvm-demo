@@ -1,4 +1,7 @@
-FROM npm-base-image
+FROM node:6.9.1-alpine
+RUN apk update && apk upgrade
+RUN apk add git curl openssh
+RUN rm -rf /var/cache/apk/*
 # Install JDK - see https://github.com/docker-library/openjdk/
 ENV LANG C.UTF-8
 
